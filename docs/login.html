@@ -34,23 +34,26 @@
 
 
 
-            <form class="login form-signin" row="col-12" action="../controller/checklogin.jsp" method="POST">
+    <form class="login form-signin" row="col-12" action="../controller/checklogin.jsp" method="POST">
 
-              <img id="center" class="mb-4" src="./assets/img/favicon.png" width="72" height="72" alt="logo">
-              <br>
-              <p class="title">Ingresa al sistema</p>
+      <img id="center" class="mb-4" src="./assets/img/favicon.png" width="72" height="72" alt="logo">
+      <br>
+      <p class="title">Ingresa al sistema</p>
 
-              <input type="text" name="inputEmail" class="form-control" placeholder="Ingrese su tarjeta" autofocus required />
-              <i class="fa fa-credit-card"></i>
+      <input type="text" name="inputEmail" class="form-control" placeholder="Ingrese su tarjeta" autofocus required />
+      <i class="fa fa-credit-card"></i>
 
-              <input type="password" name="inputPassword" class="form-control" placeholder="Ingrese su pin" required />
-              <i class="fa fa-key"></i>
+      <input type="password" name="inputPassword" class="form-control" placeholder="Ingrese su pin" required />
+      <i class="fa fa-key"></i>
+      <!-- en el proyecto real hay que poner los redireccionados con su respectiva seguridad esto es solo un ejemplo visual-->
 
-              <button type="submit">
-                <i class="spinner"></i>
-                <span class="state">Ingresar</span>
-              </button>
-            </form>
+      <a href="pedidos.html">
+        <button type="submit">
+          <i class="spinner"></i>
+          <span class="state">Ingresar</span>
+        </button>
+    </form>
+    </a>
 
 
 
